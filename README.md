@@ -4,7 +4,6 @@
 Module that allows users to sanitize JSON data based on inputted fields, i.e. password, email, credit card information, etc.
 
 ### Requirements
-* NODE 12.3.1 LTS
 
 ### Installation
 ```

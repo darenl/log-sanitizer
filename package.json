@@ -1,6 +1,6 @@
 {
   "name": "log-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sanitizes personal information in logs",
   "main": "index.js",
   "scripts": {

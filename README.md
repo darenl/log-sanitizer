@@ -26,5 +26,6 @@ const logSanitizer = new Sanitize(['password'])
 3. Sanitize JSON object: Function takes in a JSON object and creates a deep copy that is sanitized based on the fields the user inputted during initialization and returned.
 
 ```
-logSanitizer.sanitize({ "password": "helloWorld" })
+const sanitizedData = logSanitizer.sanitize({ "password": "helloWorld" });
+//sanitizedData = { "password": "*" }
 ```

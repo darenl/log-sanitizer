@@ -30,7 +30,7 @@ class Sanitizer {
       }
       return obj;
     } catch (e) {
-      // return { e };
+      return { e };
     }
   }
 }

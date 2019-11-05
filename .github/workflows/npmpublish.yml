@@ -16,7 +16,6 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run test
-      - run: npm publish --acess public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
